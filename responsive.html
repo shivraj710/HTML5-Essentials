@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Responsive design </title>
+        <meta name="viewport" content="width"=device-width, initial-scale="1.0">
+        <style>
+            body{
+                font-family:Arial;
+                text-align:center;
+            }
+            .container{
+                display:flex;
+                gap:20px;
+            }
+            .box{
+                background-color:lightblue;
+                padding:30;
+                flex:1;
+            }
+            @media(max-width:600px){
+                .container{
+                flex-direction:column;
+            }
+        }
+        
+
+
+        </style>
+
+    </head>
+<body>
+    <h1> Responsive Web page </h1>
+    <div class="container">
+        <div class="box"> BOX 1 </div>
+        <div class="box"> BOX 2 </div>
+        <div class="box"> BOX 3 </div>
+    </div>
+</body>
+</html>
